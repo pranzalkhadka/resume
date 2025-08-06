@@ -1,16 +1,32 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Benchmarking Fine-Tuning Strategies for VLSM
+  # role: Founder & Primary Developer
+  # duration: 2012 &mdash; Present
+  url: "https://github.com/pranzalkhadka/clipseg-tuning-benchmark"
+  description: A comparative analysis of fine-tuning strategies for CLIPSeg on abdominal organ segmentation in CT scans, evaluating full fine-tuning, decoder-only tuning, and adapter-based methods focusing on trade-off between Dice score and training efficiency.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Neural Network from Scratch
+  # role: Founder & Primary Developer
+  # duration: 2012 &mdash; Present
+  url: "https://github.com/pranzalkhadka/NeuroInsight"
+  description: Designed and deployed a custom neural network library by implementing key components including forward propagation, back propagation, activation functions and evaluation metrics from scratch using NumPy.
+
+- project: CLIPSeg from Scratch
+  # role: Founder & Primary Developer
+  # duration: 2012 &mdash; Present
+  url: "https://github.com/pranzalkhadka/CLIPSeg"
+  description: Implemented a custom ClipSeg model from scratch in PyTorch for zero-shot image segmentation.
+
+- project: Batch Normalization for Convolutional Neural Networks
+  # role: Founder & Primary Developer
+  # duration: 2012 &mdash; Present
+  url: "https://github.com/pranzalkhadka/Visual-Unfolding-of-Batch-Normalization"
+  description: Conducted a series of experiments to explore and visualize the impact of Batch Normalization when training Convolutional Neural Networks (CNNs).
+
+- project: Nepali Document and Record Management System
+  # role: Founder & Primary Developer
+  # duration: 2012 &mdash; Present
+  url: "https://github.com/pranzalkhadka/DRMS"
+  description: Developed a document management system for Nepali-language papers by fine-tuning Tesseract OCR for text extraction and training a classifier based on LSTM for automated classification achieving 4 % Character Error Rate (CER) in OCR and F1 score of 89 in classification. Containerized the system using Docker and deployed on AWS EC2.

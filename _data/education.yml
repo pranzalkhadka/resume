@@ -1,13 +1,15 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Bachelor of Science in Computer Science and Information Technology
+  uni: Amrit Science Campus, Tribhuvan University
+  year: 2021 &mdash; 2025
+  courses: Linear Algebra, Calculus, Operating Systems, Analysis Of Algorithms, Theory of Computation, Artificial Intelligence, Computer Networking, Database Management System, Data Warehousing and Data Mining
+  # awards:
+  #   - award: Summa Cumme Laude graduate
+  # summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- Course: Artificial Intelligence Fellow
+  Organization: Fusemachines Inc
+  year: 2024
+  courses: Machine Learning, Deep Learning, Data Wrangling, Computer Vision, Natural language Processing, ML Operations
+  # award: Most likely to succeed
+  # summary: You can choose to have either a single or multiple awards
