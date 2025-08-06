@@ -9,7 +9,7 @@
 - company: Nepal Applied Mathematics and Informatics Institute for Research
   position: Research Intern
   duration:  August, 2024 &mdash; July, 2024
-  summary: <ul class="resume-item-list"><li>Currently investigating the effectiveness of text driven segmentation via CLIPSeg, a vision-language segmentation model, versustraditional 3D U-Net for organ segmentation in CT scans</li><li>Experimented with varying text prompt designs including simple organ names and detailed anatomical descriptions (size, location) tooptimize segmentation performance</li><li>Explored parameter efficient fine-tuning techniques to improve the performance of Vision-Language Segmentation models on medicalimaging datasets</li></ul>
+  summary: <ul class="resume-item-list"><li>Currently investigating the effectiveness of text driven segmentation via CLIPSeg, a vision-language segmentation model, versus traditional 3D U-Net for organ segmentation in CT scans</li><li>Experimented with varying text prompt designs including simple organ names and detailed anatomical descriptions (size, location) to optimize segmentation performance</li><li>Explored parameter efficient fine-tuning techniques to improve the performance of Vision-Language Segmentation models on medical imaging datasets</li></ul>
 
 
 # Communications Coordinator
