@@ -113,13 +113,15 @@
   background-color: #efefef;
   text-decoration: none;
   text-align: center;
-  display: block;
-  margin: 1.5rem auto;
-  width: 220px;
-  font-size: 1.375rem;
+  display: inline-block; // changed from block
+  margin: 0;              // removed auto center
+  width: auto;            // removed fixed width
+  padding: 0 20px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
   @include sans_light;
   color: #333;
-  line-height: 55px;
   @include transition(all .2s ease);
 
   &:hover {
@@ -127,23 +129,33 @@
     color: #fff;
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking { width: 400px; } // keep as-is if needed elsewhere
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 
 .download-button {
-  margin-left: 10px;
   background-color: #4CAF50;
   color: white;
+  padding: 0 20px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
+  border-radius: 3px;
   border: none;
-  padding: 8px 12px;
-  border-radius: 4px;
   text-decoration: none;
-}
+  display: inline-block;
 
-.download-button:hover {
-  background-color: #45a049;
+  &:hover {
+    background-color: #45a049;
+  }
 }
-
 
 // resume content styles
 
