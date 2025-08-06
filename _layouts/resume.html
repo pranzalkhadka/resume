@@ -47,15 +47,14 @@
         {% endif %} -->
 
         <div class="button-container no-print">
-          {% if site.resume_looking_for_work == 'yes' %}
+        {% if site.resume_looking_for_work == 'yes' %}
           <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
-          <a href="[https://drive.google.com/uc?export=download&id=1lnXDUYZVwVmDWwueZNO2sVTDy4UyKzEm]" class="contact-button download-button" download>Download My Resume</a>
-          {% elsif site.resume_looking_for_work == 'no' %}
+        {% elsif site.resume_looking_for_work == 'no' %}
           <a class="contact-button not-looking">I'm not looking for work right now.</a>
-          <a href="[https://drive.google.com/uc?export=download&id=1lnXDUYZVwVmDWwueZNO2sVTDy4UyKzEm]" class="contact-button download-button" download>Download My Resume</a>
-          {% else %}
-          <a href="[https://drive.google.com/uc?export=download&id=1lnXDUYZVwVmDWwueZNO2sVTDy4UyKzEm]" class="contact-button download-button" download>Download My Resume</a>
-          {% endif %}
+        {% endif %}
+
+        <!-- Download button always shown -->
+        <a href="https://drive.google.com/uc?export=download&id=1lnXDUYZVwVmDWwueZNO2sVTDy4UyKzEm" class="contact-button download-button" download>Download My Resume</a>
         </div>
 
       </header>
@@ -147,46 +146,6 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>CERTIFICATIONS</h2>
-        </header>
-
-        {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Recognition -->
-      {% endif %}
-
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>OPEN-SOURCE CONTRIBUTIONS</h2>
-        </header>
-
-        {% for association in site.data.associations %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Associations -->
-      {% endif %}
-
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
       <section class="content-section">
@@ -207,26 +166,6 @@
       <!-- end Interests -->
       {% endif %}
 
-      {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <!-- <section class="content-section">
-
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section> -->
-      <!-- end Links -->
-      {% endif %}
-
       {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
@@ -242,11 +181,6 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
-
-      <!-- <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer> -->
 
     </div>
 
