@@ -15,8 +15,8 @@
 #   summary: During my junion and senior years at Yale, I was actively involved in Yale Amnesty International where I helped facilitate our student organization communications through website maintenance, writing for our campus publication, and graphic design of related materials.
 
 
-- contribution: Fixed FastEmbedding and LanceDB vector database compatibility bug in Agno Framework
-  url: "https://github.com/agno-agi/agno/pull/2708"
+# - contribution: Fixed FastEmbedding and LanceDB vector database compatibility bug in Agno Framework
+#   url: "https://github.com/agno-agi/agno/pull/2708"
 
-- contribution: Fixed documentation issues in Agno Framework
-  url: "https://github.com/agno-agi/agno-docs/pull/404"
+# - contribution: Fixed documentation issues in Agno Framework
+#   url: "https://github.com/agno-agi/agno-docs/pull/404"
