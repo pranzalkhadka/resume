@@ -1,19 +1,12 @@
 # Jobs
 # VP of Global Communications
-- company: Fizanto
-  position: Founding AI Engineer
-  duration: February, 2025 &mdash; Present
+- company: Bright Sterling
+  position: AI Engineer
+  duration: July, 2025 &mdash; Present
   summary: <ul class="resume-item-list"><li>Currently working on Agentic AI powered platform for model risk management validation and compliance</li><li>Conducted R&D of AI frameworks to enable rapid prototyping and deployment of intelligent features</li><li>Leveraged Microsoft Azure for deployment, hosting and orchestration of services</li></ul>
 
 # Director of Digital Stratgy
 - company: Nepal Applied Mathematics and Informatics Institute for Research
   position: Research Intern
-  duration:  August, 2024 &mdash; July, 2025
+  duration:  November, 2024 &mdash; May, 2025
   summary: <ul class="resume-item-list"><li>Currently investigating the effectiveness of text driven segmentation via CLIPSeg, a vision-language segmentation model, versus traditional 3D U-Net for organ segmentation in CT scans</li><li>Experimented with varying text prompt designs including simple organ names and detailed anatomical descriptions (size, location) to optimize segmentation performance</li><li>Explored parameter efficient fine-tuning techniques to improve the performance of Vision-Language Segmentation models on medical imaging datasets</li></ul>
-
-
-# Communications Coordinator
-- company: LIS Nepal
-  position: Software Engineer Intern
-  duration:   May, 2024  &mdash; August, 2024
-  summary: <ul class="resume-item-list"><li>Designed and maintained ETL pipeline using Python and Apache Airflow to streamline data ingestion into Snowflake DataWarehouse</li><li>Monitored server logs and provided Level 1 support for large-scale retail data pipelines by resolving batch processing errors in real-time</li></ul>

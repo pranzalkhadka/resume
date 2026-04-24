@@ -1,17 +1,10 @@
 # Degree
 - degree: Bachelor in Computer Science and Information Technology
-  uni: Amrit Science Campus, Tribhuvan University
-  year: 2021 &mdash; 2025
+  uni: Amrit Campus, Tribhuvan University
+  year: 2021 &mdash; 2024
   courses: Linear Algebra, Calculus, Operating Systems, Analysis Of Algorithms, Theory of Computation, Artificial Intelligence, Computer Networking, Database Management System, Data Warehousing and Data Mining
   # awards:
   #   - award: Summa Cumme Laude graduate
   # summary: If you had any meaningful roles at college, feel free to write about them here
 
 
-- degree: Artificial Intelligence Fellow
-  uni: Fusemachines Inc
-  year: April 2024 &mdash; September 2024
-  courses: Machine Learning, Deep Learning, Data Wrangling, Computer Vision, Natural language Processing, ML Operations
-  # awards:
-  #   - award: Summa Cumme Laude graduate
-  # summary: If you had any meaningful roles at college, feel free to write about them here
